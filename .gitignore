@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Environment
+.env
+
+# Django
+db.sqlite3
+/media
+/staticfiles
+
+# VSCode or IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Migrations (optional, keep if you want to reset db often)
+**/migrations/*.pyc
+**/migrations/__pycache__/
